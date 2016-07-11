@@ -1,5 +1,5 @@
 {
-    "name": "thiagof/laravelrpc",
+    "name": "neilwong/laravelrpc",
     "description": "JsonRPC Client/Server services for Laravel 5",
     "keywords": ["laravel", "jsonrpc", "rpc", "json-rpc", "client", "server"],
     "license": "MIT",
@@ -11,12 +11,12 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": ">=5.*",
+        "illuminate/support": ">=5.0,<5.9",
         "fguillot/json-rpc": "@stable"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
-        "laravel/laravel": ">=5.0,<5.2"
+        "laravel/laravel": ">=5.0,<5.9"
     },
     "autoload": {
         "psr-4": {
@@ -28,5 +28,5 @@
             "tests/TestCase.php"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
